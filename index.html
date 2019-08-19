@@ -3,8 +3,11 @@
 <head>
     <title>GEO Trivia</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <link rel="stylesheet" href="assets\css\style.css">
 </head>
 <body>
+   <!-- try add everything into a master-container -->
+<div id="master-container">
     <!--5 Add divs  -->
         <!--5b add a wrapper to include everything within the body  -->
     <div id="wrapper">
@@ -14,10 +17,13 @@
     <h1 id="title">GEO Trivia!</h1>
         <!--5c subwrapper div add and removed HTML elements questions page and summary page/ add subwrapper element on $  -->
         <div id="subwrapper"></div>
-    <button id="start">Start</button> 
+            <div id="quiz-area">
+    <button id="start">Start! </button> 
                     <!--4 create $ event on app.JS to reference the start button   -->
+            </div>
         </div>
     </div>
+</div>
     <!--3 Create reference to app.JS file -->
     <script type="text/javascript" src="assets\javascript\app.js"></script>
 </body>

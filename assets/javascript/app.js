@@ -52,11 +52,11 @@ var questions =[{  //2. questiosn array with objects with questions answers and 
 var game = {
     correct: 0,  //count number of correct aswers
     incorrect: 0, //count number of incorrect answers
-    counter: 20, //start at 120 seconds and counts back when player start
+    counter: 5, //start at 120 seconds and counts back when player start
     countdown: function(){ //function that decreases the counter by one and change the element on page
         game.counter--;
         $('#counter').html(game.counter);
-        if(game.counter<=0){            //game ends
+        if(game.counter <= 0){            //game ends
             console.log("Time is up!");
             game.done();
         }                            
@@ -68,7 +68,7 @@ var game = {
         for(var i=0;i<questions.length;i++){ //3a for loop function - for each questions 
             $('#subwrapper').append('<h2>'+questions[i].questions+'</h2>'); //3b append subwrapper into header, questions
             for(var j=0; j<questions[i].answers.length;j++){ //3c sub loop 
-                $("#subwrapper").append("<input type='radio' name='question-"+i+"' value='"+questions[i].answers[j]+"'>"+questions[i].answers[j]); //3d append each question w a name = num of question and value = answer
+                $('#subwrapper').append("<input type='radio' name='question-"+i+"' value='"+questions[i].answers[j]+"'>"+questions[i].answers[j]); //3d append each question w a name = num of question and value = answer
             }  
         }    
         $('#subwrapper').append('<br><button id="end">DONE</button>')
