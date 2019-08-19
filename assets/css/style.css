@@ -3,7 +3,7 @@
 }
 h1, #title {
   font-display: center;
-  color: green;
+  color:rgb(3, 31, 41);
   font-weight: bold;
   font-size: 50px;
 }
@@ -22,9 +22,8 @@ h1, #title {
 body {
   background-image: url("https://thumbs.dreamstime.com/b/old-globe-bookshelf-background-selective-focus-retro-style-old-globe-bookshelf-background-selective-focus-retro-style-121971007.jpg");
   margin: 0;
-  font-family: sans-serif;
-  opacity: .9 ;
-  background-size: center;
+  opacity: .8;
+  background-size: auto;
   background-attachment: fixed;
   color:black;
   font-weight: bold;
@@ -35,19 +34,8 @@ body {
   text-align: center;
   
 }
-button {
-	font-family: 'Courier New', Courier, monospace;
-    display: block;
-    width: 200px;
-    height: 80px;
-    margin: 80px auto 0 auto;
-    cursor: pointer;
-    background: orange;
-    font-size: 45px;;
-    color:green;
-}
 
-button, #title {
+button {
   background-color: rgb(3, 31, 41);
   border: auto;
   color: lightblue;   
@@ -57,4 +45,11 @@ button, #title {
   position: relative;
   margin:40px 225px;    
   box-shadow: 5px 10px 18px rgb(4, 36, 63);
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  width: 200px;
+  height: 80px;
+  margin: 80px auto 0 auto;
+  cursor: pointer;
+  font-size: 45px;
 }
