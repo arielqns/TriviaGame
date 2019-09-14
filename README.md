@@ -1,8 +1,26 @@
-# TriviaGame
-Trivia game using JavaScript for the logic and jQuery to manipulate HTML
+# Name
+Totally Trivial GEO Trivia!
+
+# Link
+https://arielqns.github.io/TriviaGame/ 
+
+# Created by
+Ariel Quinones August 2019
+
+# Description
+A timed geography themed trivia game with 10 multiple choice questions.
+
+# Instructions:
+- Click Start! to begin 
+- Read each question and select the best option
+- You have 120 seconds to choose your answers 
+- If you finish before time is up click "Done" to see how you did.
+
+# Created using: 
+HTML, CSS, JavaScript for the logic and jQuery to manipulate HTML
 
 
-Questions:
+# Questions:
 
 1. Which planet has the largest mountain in existence that we know of? 
 Mars – with a height of about 13.6 miles, Olympus Mons is about two and a half times Mount Everest’s height above sea level, making him the tallest planetary mountain.
